@@ -23,8 +23,9 @@ print(response.text)
 ```
 
 This will create a dropdown select property labeld *Provincia* in your Contacts in the Contact Information property group.
+
 You can also add the property to COMPANIES and DEALS by changing the object_type and group_name variables.
-Other options can be customized such as *hasUniqueValue* and *description*. Please refer to the file create_province.py for more about this.
+Other options can be customized such as *hasUniqueValue* and *description*. Please refer to the file [create_province.py](https://github.com/MatCast/hubspot-province/blob/f4cb7b5651c52dc81a80aee3aa955104aee2f175/create_province.py#L45) for more about this.
 
 Each Provincia will be created like the example below:
 
